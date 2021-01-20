@@ -30,24 +30,22 @@ body {
       display: inline-block;
   }
 
-  .sale-button-div {
-    background: linear-gradient(150deg,#e1163c,#a11453);
-    border-radius: 3px;
-    padding: 12px 15px !important;
-    font-family: gotham-book,'Arial',sans-serif;
-    text-align: center;
-    border: 0;
-    color: #fff;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    cursor: pointer;
-    font-size: 0;
-    letter-spacing: -1px;
-    position: relative;
-    margin-top: 20px !important;
-    height: 30px;
-    float: right;
-    width: 150px;
+.sale-button-div button {
+  background: linear-gradient(150deg,#e1163c,#a11453);
+  border-radius: 4px;
+  padding: 8px 15px !important;
+  font-family: gotham-book,'Arial',sans-serif;
+  text-align: center;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  letter-spacing: .16px;
+  position: relative;
+  margin-top: 20px !important;
+  height: 2.75rem;
+  float: right;
+  width: 15rem;
 }
   
   #imgbox {
@@ -61,6 +59,46 @@ body {
     width:100%;
     position:relative;
   }
+  span.premium-brand {
+    background: #222;
+    color: #fff;
+    padding: 4px 4px 4px 4px;
+    font-size: 16px;
+  }
+  .depFlight  {
+    font-size: 28px;
+    color: #000;
+    font-weight: 600;
+  }
+  .destFlight  {
+    font-size: 28px;
+    color: #000;
+    font-weight: 600;
+  }
+  .WS-outbound-date, .WS-return-date {
+    color: #222;
+    margin-right: 15px;
+    line-height: 25px;
+    display: inline-block;
+    font-size: 14px;
+    font-family: gotham-book;
+  }
+  .brandBaggage  {
+    font-family: gotham-book,'Arial',sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    align-items: center;
+    color: #181818;
+    margin-top: 7px;
+  }
+  .WS-location-detail {
+    margin-top: .5rem;
+  }
+  .WS-location-point  {
+    margin-top: .5rem;
+  }
+  
+  
 
 
 /* .search-results-card {
