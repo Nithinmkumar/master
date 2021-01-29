@@ -1,4 +1,5 @@
 
+
 <!-- https://s3.eu-west-2.amazonaws.com/airlinespocbucket/JsonFiles%2Fsalepage-v8.json -->
 
 <div>
@@ -23,8 +24,16 @@
                     <span class="card-depFlight ">{{flight.destination_desc}}</span>
                     <span class="flightCode ">({{flight.destination_code}})</span>
                 </span>
+
+
             </div>
+        </article>
+        <div class="findOther-date" >
+            <span class="find-other-date-txt">Find other dates</span>
+            <span class="find-other-date-icn"> <i class="fa fa-angle-down" aria-hidden="true"></i>
+            </span>
         </div>
+
         <div class="card-location-detail ">
             <div class="">
                 <span class="card-loc-txt ">
@@ -42,8 +51,15 @@
                             </span>
                             <span class="baggageDet">{{flight.luggage_allowance}} </span>
                 </span>
+
             </div>
+        </article>
+        <div class="findOther-date" >
+            <span class="find-other-date-txt">Find other dates</span>
+            <span class="find-other-date-icn"> <i class="fa fa-angle-down" aria-hidden="true"></i>
+            </span>
         </div>
+
         <div class="card-button-div">
             <button class="view">Book from £{{flight.price}} pp</button>
         </div> 
@@ -54,16 +70,20 @@
         <div class="flex-book-tab">
             <div class="flex-book-tab-txt">Book now, change later. Flexible bookings.</div>
         </div>
+
         <article class="sale-details">
             <div class="sale-wrapper">
                 <div class="sale-image-div">
                     <figure id="imgbox">
+
                         <img class="lazy" src="{{flight.image}}" alt="">
+
                     </figure>
                 </div>
                 <div class="sale-description-div">
                     <!-- <h1>Hotel 1</h1>
                     <h3>Seatle, USA</h3> -->
+
                     <span class="WS-loc-txt premium-brand "> {{flight.cabin}} </span>
                     <div class="WS-location-point ">
                         <span class="WS-loc-icn ">
@@ -73,6 +93,7 @@
                             </span>
                             <span class="destFlight ">{{flight.destination_desc}}</span>
                             <span class="flightCode ">({{flight.destination_code}})</span>
+
                         </span>
                     </div>
                     <div class="WS-location-detail ">
@@ -81,7 +102,9 @@
                                 <span class="WS-loc-icn ">
                                     <i class="fa fa-calendar" aria-hidden="true"></i>
                                 </span>
+
                                 <span class="WS-outbound-date ">{{flight.OUTBOUND_DATE | date :'dd MMM yyyy'}}</span> - <span class="WS-return-date ">{{flight.INBOUND_DATE | date :'dd MMM yyyy'}}
+
                                 </span>
                             </span>
                         </div>
@@ -90,6 +113,7 @@
                                 <span class="WS-loc-icn ">
                                             <i class="fa fa-suitcase" aria-hidden="true"></i>
                                         </span>
+
                                         <span class="baggageDet">{{flight.luggage_allowance}} </span>
                             </span>
                         </div>
@@ -97,9 +121,17 @@
                 </div>
                 <div class="sale-button-div">
                     <button class="view">Book from £{{flight.price}} pp</button>
+
                 </div>
             </div>
+        </article>
+        <div class="findOther-date" >
+            <span class="find-other-date-txt">Find other dates</span>
+            <span class="find-other-date-icn"> <i class="fa fa-angle-down" aria-hidden="true"></i>
+            </span>
         </div>
+
     </article>
     </div>
+
 </section>
